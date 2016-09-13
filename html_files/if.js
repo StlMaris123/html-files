@@ -20,8 +20,4 @@ function trueOrFalse(wasThatTrue) {
 
 // Change this value to test
 trueOrFalse(true);
-trueOrFalse(false);
 
-              }
-          }
-}
