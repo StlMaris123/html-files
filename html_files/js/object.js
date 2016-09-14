@@ -1,8 +1,13 @@
  var mySelf = {
-    "name" : "Stella",
+    " my name" : "Stella",
     "age" : 30,
     "shirt" : "whhite"
 };
-//accessiing elements using the dot operator
+//accessing elements using the dot operator
 var myName = mySelf.name;
 var myAge = mySelf.age;
+
+//accessing element properties using the bracket notation
+var myName = mySelf["my name"];
+var myName = mySelf["age"];
+
