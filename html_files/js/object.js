@@ -15,3 +15,6 @@ var myName = mySelf["age"];
 mySelf.age = 20;
 mySelf["age"] = 20;
 
+//delete properties
+delete mySelf.age;
+
