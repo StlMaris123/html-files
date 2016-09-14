@@ -11,3 +11,7 @@ var myAge = mySelf.age;
 var myName = mySelf["my name"];
 var myName = mySelf["age"];
 
+//update properties
+mySelf.age = 20;
+mySelf["age"] = 20;
+
