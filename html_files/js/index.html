@@ -15,9 +15,7 @@
         var sqrNum = function(){
             num1 = document.getElementById('num1').value;
             parseInt(num1);
-            num1Squared = num1 * num1;
-            num2 = document.getElementById('num2');
-            num2.value = num1Squared;
+            document.getElementById('num2').value = ((x) => x * x)(num1);
         };
         solution = document.getElementById('solution');
         solution.addEventListener("click", sqrNum);
