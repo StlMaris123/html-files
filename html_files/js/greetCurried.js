@@ -3,3 +3,7 @@ var greetCurried = function(greeting) {
         console.log(greeting + ", " + name);
     };
 };
+var greetHello = greetCurried("Hello");
+greetHello("Magwa");
+
+greetCurried("Hi there")("Stella");
