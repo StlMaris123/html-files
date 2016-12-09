@@ -1,12 +1,12 @@
-var counter = 20;
+var counter = 10;
 function countdown(value) {
     if ( value > 0 ) {
         console.log(value);
-        return countdown(value - 1);
+        return countdown(value - 2);
     }
     else {
         return value;
     }
 };
-countdown(10);
+countdown(20);
 console.log(counter);
