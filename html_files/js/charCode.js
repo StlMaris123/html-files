@@ -1,0 +1,1 @@
+'ABC'.charCode(0);
